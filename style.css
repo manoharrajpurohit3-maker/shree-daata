@@ -369,3 +369,86 @@ transform:scale(1.1);
 #popup-whatsapp:hover{
     background:#1fa851;
 }
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media (max-width:768px){
+
+.header-top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.logo{
+    width:60px;
+}
+
+.header-top h1{
+    font-size:30px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+nav a{
+    margin:5px;
+    font-size:16px;
+}
+
+.hero{
+    padding:40px 15px;
+}
+
+.hero h2{
+    position:static;
+    transform:none;
+    font-size:28px;
+    text-align:center;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.banner{
+    position:static;
+    width:80%;
+    margin:20px auto;
+    display:block;
+}
+
+.features,
+.product-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.feature,
+.product-box{
+    width:90%;
+    max-width:320px;
+}
+
+.about p,
+.contact-box{
+    width:90%;
+    margin:auto;
+    font-size:18px;
+}
+
+.whatsapp-float{
+    width:55px;
+    height:55px;
+    font-size:28px;
+}
+
+}
