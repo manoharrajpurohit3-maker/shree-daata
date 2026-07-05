@@ -404,6 +404,7 @@ nav a{
 }
 
 .hero{
+    position: relative;
     padding:40px 15px;
 }
 
@@ -419,11 +420,13 @@ nav a{
 }
 
 .banner{
+    position: absolute;
+    right:10px;
+    bottom:10px;
     width:80px;
-    max-width:80px;
     height:auto;
-    margin:10px auto;
-    display:block;
+    margin: 0;
+    
 }
 
 .features,
