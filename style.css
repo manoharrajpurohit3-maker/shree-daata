@@ -419,9 +419,10 @@ nav a{
 }
 
 .banner{
-    position:static;
-    width:80%;
-    margin:20px auto;
+    width:200px;
+    max-width:200px;
+    height:auto;
+    margin:10px auto;
     display:block;
 }
 
